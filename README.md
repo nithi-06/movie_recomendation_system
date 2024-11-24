@@ -15,6 +15,7 @@ Movie Recommendations: Based on the selected movie, the system calculates simila
 Efficient Search: The system handles minor spelling variations and ensures recommendations even if the input isn’t exact.
 
 **How It Works**
+
 **Input and Matching:**
 The user enters a favorite movie title. The system uses the difflib.get_close_matches function to find the closest match from the dataset of movie titles.
 
