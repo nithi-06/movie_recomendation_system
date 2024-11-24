@@ -5,9 +5,13 @@ This Movie Recommendation System suggests movies to users based on their favorit
 
 **Features**
 User Input: Users enter the name of their favorite movie.
+
 Closest Match: The system identifies the closest matching movie title using string similarity.
+
 Movie Recommendations: Based on the selected movie, the system calculates similarity scores and provides the top 10 recommendations.
+
 Efficient Search: The system handles minor spelling variations and ensures recommendations even if the input isn’t exact.
+
 **How It Works**
 **Input and Matching:**
 The user enters a favorite movie title. The system uses the difflib.get_close_matches function to find the closest match from the dataset of movie titles.
